@@ -1,0 +1,85 @@
+header{
+			display: flex;
+			 justify-content: center;
+		}
+		header div p{
+			/*float: right;*/
+		}
+		header #logo{
+			margin-top: 15px;
+			color:green;
+		}
+		header #phone{
+			margin-left:50%; 
+		}
+		nav{
+			 margin-left: 25%;
+		}
+		nav ul{
+
+		}
+		nav ul li{
+				list-style-type: none;
+		}
+		nav ul li #active{
+			text-decoration: underline;
+			color:#D9672A;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color:gray;
+			float: left;
+			margin-left: 55px;
+			font-size: 23px;
+		}
+		nav ul li a:hover{
+			color:#D9A92A;
+		}
+
+section{
+	 margin-left:20%;
+	 margin-right:20%;
+	 margin-top: 12%;
+}
+section h1{
+	/*margin-left:50%; */
+}
+section div p{
+	color:#A9A9A9;
+}
+section div #personimg{
+	width: 185px;
+}
+section div .name{
+	top: 555px;
+	color: #9CC856;
+	left: 45%;
+
+}
+section #work{
+	  display: flex;
+   
+}
+section #work div:nth-child(1){
+
+}
+section #work div:nth-child(2){
+margin-left: 25%;
+}
+footer{
+	display: flex;
+			 justify-content: center;
+			 margin-top: 20%;
+}
+footer div:nth-child(2) {
+
+  margin-left:50%; 
+}
+section #left{
+	  position: absolute;
+  right: 0px;
+  width: 300px;
+   margin-top: -230px;
+   margin-right: 25%;
+  padding: 10px;
+}

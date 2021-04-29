@@ -1,0 +1,29 @@
+header div p {
+  color: #c6538c; }
+
+nav ul {
+  list-style-type: none; }
+  nav ul li a {
+    text-decoration: none;
+    float: left;
+    margin-left: 25px; }
+  nav ul li a:hover {
+    color: CadetBlue;
+    text-decoration: underline; }
+  nav ul #menu {
+    position: relative;
+    display: inline-block; }
+  nav ul .subMenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1; }
+    nav ul .subMenu p a {
+      margin-top: 15px; }
+  nav ul #menu:hover .subMenu {
+    display: block; }
+
+/*# sourceMappingURL=StyleSheet1.css.map */
